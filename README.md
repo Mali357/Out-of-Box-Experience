@@ -1,0 +1,2 @@
+# harmony/blackcombOOBE
+ This is the Out of Box Experience used in 2 of my windows mods, Windows Harmony and Windows Blackcomb. This is a fork of the out of box experience used in OjasK's Windows mod, Hillel 7 (4096). To use this program properly, you need to go into C:\ProgramData\Microsoft\User Account Pictures\Default Pictures and add usertile 1-6 into it. These are normally not present in windows and the OOBE will crash if the files aren't there.  

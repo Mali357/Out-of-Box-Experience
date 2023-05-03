@@ -1,0 +1,60 @@
+C:\Users\Mali\Desktop\oobe experience\OOBE\bin\Release\OOBE.exe.config
+C:\Users\Mali\Desktop\oobe experience\OOBE\bin\Release\OOBE.exe
+C:\Users\Mali\Desktop\oobe experience\OOBE\bin\Release\OOBE.pdb
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\Aurora.g.cs
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\MainWindow.g.cs
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\App.g.cs
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.cache
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.lref
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\Aurora.baml
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\MainWindow.baml
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE.g.resources
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE.csproj.CoreCompileInputs.cache
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE.exe
+C:\Users\Mali\Desktop\oobe experience\OOBE\obj\x64\Release\OOBE.pdb
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe.config
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.pdb
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.g.cs
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.g.cs
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\App.g.cs
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_Content.g.cs
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.cache
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.lref
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.baml
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.baml
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.g.resources
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.csproj.CoreCompileInputs.cache
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.exe
+C:\Users\Mali\Desktop\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.pdb
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe.config
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.pdb
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.g.cs
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.g.cs
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\App.g.cs
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_Content.g.cs
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.cache
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.lref
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.baml
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.baml
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.g.resources
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.csproj.CoreCompileInputs.cache
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.exe
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.pdb
+C:\Users\Mali\Desktop\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.csproj.AssemblyReference.cache
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe.config
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.exe
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\bin\Release\OOBE.pdb
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.g.cs
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.g.cs
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\App.g.cs
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_Content.g.cs
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.cache
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE_MarkupCompile.lref
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\Aurora.baml
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\MainWindow.baml
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.g.resources
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.csproj.CoreCompileInputs.cache
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.exe
+C:\Users\Mali\Desktop\blackcomb\Beta 4 Temporary Development Folder\Beta 4 new feature\OUTOFBOX\SOURCE CODE\oobe experience\OOBE\obj\x64\Release\OOBE.pdb

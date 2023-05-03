@@ -1,0 +1,495 @@
+<Window
+	x:Class="OOBE.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:OOBE"
+	Title="MainWindow"
+	Height="569.877"
+	Width="800"
+	WindowState="Maximized"
+	Topmost="True"
+	WindowStyle="None"
+	AllowsTransparency="True"
+	AllowDrop="True"
+	Background="#00FFFFFF"
+	Closing="closing">
+	<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Stretch="Uniform">
+		<Canvas
+			Name="DocumentRootMainScene"
+			Background="#00000000"
+			Width="800px"
+			Height="600px">
+			<StackPanel
+				Margin="340,520">
+				<Label
+					FontWeight="Bold"
+					FontFamily="Tahoma"
+					FontSize="8pt"
+					Foreground="#FFFFFFFF"
+					HorizontalAlignment="Right" />
+				<Label
+					FontFamily="Tahoma"
+					FontSize="8pt"
+					Foreground="#FFFFFFFF"
+					HorizontalAlignment="Right" />
+				<Label
+					FontFamily="Tahoma"
+					FontSize="8pt"
+					Foreground="#FFFFFFFF"
+					HorizontalAlignment="Right" />
+			</StackPanel>
+			<Grid
+				Height="473"
+				Canvas.Left="73"
+				Canvas.Top="59"
+				Width="663">
+				<TabControl
+					Name="pagesTabs"
+					Background="#00FFFFFF"
+					BorderBrush="#00ACACAC"
+					Margin="0,-31,0,-33"
+					SelectionChanged="selection_change">
+					<TabItem
+						Header="1"
+						BorderBrush="#00ACACAC"
+						Visibility="Hidden">
+						<Grid
+							Background="#00E5E5E5">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition
+									Width="117*" />
+								<ColumnDefinition
+									Width="404*" />
+								<ColumnDefinition
+									Width="136*" />
+							</Grid.ColumnDefinitions>
+							<Grid.RowDefinitions>
+								<RowDefinition
+									Height="105*" />
+								<RowDefinition
+									Height="170*" />
+								<RowDefinition
+									Height="100*" />
+							</Grid.RowDefinitions>
+							<Image
+								Name="flag"
+								Grid.Column="1"
+								Source="pack://siteoforigin:,,,/Resources/exec_briefing_start.dir_1_386.png"
+								Height="126"
+								VerticalAlignment="Top"
+								Grid.Row="1" />
+							<TextBlock
+								Margin="10,101,10,0"
+								Grid.Row="1"
+								TextWrapping="Wrap"
+								Text="Welcome to Windows!"
+								VerticalAlignment="Top"
+								Grid.Column="1"
+								Height="31"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF"
+								TextAlignment="Center"
+								FontSize="22"
+								FontFamily="Tahoma Bold" HorizontalAlignment="Center" />
+							<TextBlock
+								Name="welcometext"
+								Grid.Column="1"
+								HorizontalAlignment="Center"
+								Margin="10,7,0,0"
+								Grid.Row="2"
+								TextWrapping="Wrap"
+								Text="Thank you for choosing Microsoft Windows! Setup will go through a few simple steps, then you can use Windows to it's fullest."
+								VerticalAlignment="Top"
+								Width="384"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF"
+								TextAlignment="Center" FontFamily="Tahoma" LineHeight="6" TextDecorations="{x:Null}" FontSize="14" />
+						</Grid>
+					</TabItem>
+					<TabItem
+						Header="2"
+						BorderBrush="#00ACACAC"
+						Visibility="Hidden">
+						<Grid
+							Background="#00E5E5E5" Margin="0">
+							<PasswordBox
+								Name="pass"
+								Margin="243,154,216,0"
+								VerticalAlignment="Top"
+								Height="23"
+								BorderThickness="2"
+								Foreground="#FFFFFFFF"
+								CaretBrush="#FFFFFFFF">
+								<Control.BorderBrush>
+									<LinearGradientBrush
+										EndPoint="0.5,1"
+										StartPoint="0.5,0">
+										<GradientStop
+											Color="#4C2D2D2E"
+											Offset="0" />
+										<GradientStop
+											Color="#FF818181"
+											Offset="1" />
+									</LinearGradientBrush>
+								</Control.BorderBrush>
+								<Control.Background>
+									<LinearGradientBrush
+										EndPoint="0.5,1"
+										StartPoint="0.5,0">
+										<GradientStop
+											Color="#4C28282E"
+											Offset="0" />
+										<GradientStop
+											Color="#7FDEDEDE"
+											Offset="1" />
+										<GradientStop
+											Color="#99B8B8B8"
+											Offset="0.979" />
+									</LinearGradientBrush>
+								</Control.Background>
+							</PasswordBox>
+							<TextBox
+								Name="user"
+								Height="23"
+								Margin="243,110,216,0"
+								TextWrapping="Wrap"
+								VerticalAlignment="Top"
+								TextOptions.TextFormattingMode="Display"
+								BorderThickness="2"
+								SelectionBrush="#265B4E4E"
+								Foreground="#FFFFFFFF"
+								SelectionOpacity="0"
+								CaretBrush="#FFFFFFFF">
+								<Control.BorderBrush>
+									<LinearGradientBrush
+										EndPoint="0.5,1"
+										StartPoint="0.5,0">
+										<GradientStop
+											Color="#BFAEABAB"
+											Offset="0" />
+										<GradientStop
+											Color="#4C2D2D2E"
+											Offset="1" />
+									</LinearGradientBrush>
+								</Control.BorderBrush>
+								<Control.Background>
+									<LinearGradientBrush
+										EndPoint="0.5,1"
+										StartPoint="0.5,0">
+										<GradientStop
+											Color="#99B8B8B8"
+											Offset="0" />
+										<GradientStop
+											Color="#7F2B1717"
+											Offset="1" />
+										<GradientStop
+											Color="#4C28282E"
+											Offset="0.979" />
+									</LinearGradientBrush>
+								</Control.Background>
+							</TextBox>
+							<TextBlock
+								Margin="2,33,0,0"
+								TextWrapping="Wrap"
+								Text="Create a user account"
+								Foreground="#FFFFFFFF"
+								FontSize="28"
+								FontFamily="Tahoma Bold"
+								TextOptions.TextFormattingMode="Display"
+								RenderTransformOrigin="0.41,0.727" HorizontalAlignment="Center" Width="320" Height="50" VerticalAlignment="Top" />
+							<Image
+								Name="userpic"
+								HorizontalAlignment="Left"
+								Height="93"
+								Margin="103,119,0,0"
+								VerticalAlignment="Top"
+								Width="95"
+								Stretch="Fill" />
+							<Image
+								HorizontalAlignment="Left"
+								Height="134"
+								Margin="82,101,0,0"
+								VerticalAlignment="Top"
+								Width="136"
+								Source="pack://siteoforigin:,,,/Resources/PNGFILE1401.png"
+								Stretch="Fill" />
+							<TextBlock
+								Name="funnitest"
+								HorizontalAlignment="Center"
+								Margin="30,200,0,0"
+								TextWrapping="Wrap"
+								Text="Type a username and a password in. "
+								VerticalAlignment="Top"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF" FontFamily="Tahoma" Height="14" />
+							<TextBlock
+								Name="test"
+								HorizontalAlignment="Left"
+								Margin="240,250,0,0"
+								TextWrapping="Wrap"
+								Text="You can customize these settings further in the Control Panel."
+								VerticalAlignment="Top"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF"
+								Width="207" FontFamily="Tahoma" TextAlignment="Center" />
+							<Image
+								Name="userpic1"
+								Margin="0,0,495,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpic2"
+								Margin="0,0,410,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpic3"
+								Margin="0,0,324,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpic4"
+								Margin="0,0,237,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpic5"
+								Margin="0,0,152,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpic6"
+								Margin="0,0,67,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill" />
+							<Image
+								Name="userpicOverlay"
+								Margin="0,0,495,52"
+								Height="65"
+								VerticalAlignment="Bottom"
+								HorizontalAlignment="Right"
+								Width="69"
+								Stretch="Fill"
+								Source="pack://siteoforigin:,,,/Resources/PNG4149.png" />
+						</Grid>
+					</TabItem>
+					<TabItem
+						Header="3"
+						BorderBrush="#00ACACAC"
+						Visibility="Hidden">
+						<Grid
+							Background="#00E5E5E5">
+							<Image
+								HorizontalAlignment="Left"
+								Height="67"
+								Margin="57,134,0,0"
+								VerticalAlignment="Top"
+								Width="68"
+								Source="pack://siteoforigin:,,,/Resources/Security - Ok.png" />
+							<Image
+								HorizontalAlignment="Left"
+								Height="67"
+								Margin="57,233,0,0"
+								VerticalAlignment="Top"
+								Width="68"
+								Source="pack://siteoforigin:,,,/Resources/Security Error.png" />
+							<Image
+								HorizontalAlignment="Left"
+								Height="90"
+								Margin="48,21,0,0"
+								VerticalAlignment="Top"
+								Width="85"
+								Source="pack://siteoforigin:,,,/Resources/Security - Ok.png" />
+							<Image
+								Name="radio1"
+								HorizontalAlignment="Left"
+								Height="15"
+								Margin="148,50,0,0"
+								VerticalAlignment="Top"
+								Width="19"
+								Source="pack://siteoforigin:,,,/Resources/radio.png"
+								MouseLeftButtonDown="button1" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="176,47,0,0"
+								TextWrapping="Wrap"
+								Text="Use recommended settings"
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								FontSize="17"
+								FontFamily="Tahoma Bold"
+								TextOptions.TextFormattingMode="Display"
+								MouseLeftButtonDown="option1click" />
+							<Image
+								Name="radio2"
+								HorizontalAlignment="Left"
+								Height="15"
+								Margin="149,154,0,0"
+								VerticalAlignment="Top"
+								Width="19"
+								Source="pack://siteoforigin:,,,/Resources/radio.png"
+								MouseLeftButtonDown="button2" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="176,151,0,0"
+								TextWrapping="Wrap"
+								Text="Install important updates only"
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								FontSize="17"
+								FontFamily="Tahoma Semibold"
+								TextOptions.TextFormattingMode="Display"
+								MouseLeftButtonDown="option2click" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="176,254,0,0"
+								TextWrapping="Wrap"
+								Text="Ask me later"
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								FontSize="17"
+								FontFamily="Tahoma"
+								TextOptions.TextFormattingMode="Display"
+								MouseLeftButtonDown="option3click" />
+							<Image
+								Name="radio3"
+								HorizontalAlignment="Left"
+								Height="15"
+								Margin="149,257,0,0"
+								VerticalAlignment="Top"
+								Width="19"
+								Source="pack://siteoforigin:,,,/Resources/radio.png"
+								MouseLeftButtonDown="button3" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="177,70,0,0"
+								TextWrapping="Wrap"
+								Text="Install important and recommended updates, help make browsing safer, check online for solutions for problems, and help Microsoft improve Windows."
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								Width="435"
+								TextOptions.TextFormattingMode="Display" FontFamily="Tahoma" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="177,180,0,0"
+								TextWrapping="Wrap"
+								Text="Only install security updates and other important updates for Windows."
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								Width="435"
+								TextOptions.TextFormattingMode="Display" FontFamily="Tahoma" />
+							<TextBlock
+								HorizontalAlignment="Left"
+								Margin="177,281,0,0"
+								TextWrapping="Wrap"
+								Text="Until you decide, your computer might be vulnerable to security threats."
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								Width="435"
+								TextOptions.TextFormattingMode="Display" FontFamily="Tahoma" />
+							<TextBlock
+								HorizontalAlignment="Center"
+								Margin="67,339,0,0"
+								TextWrapping="Wrap"
+								VerticalAlignment="Top"
+								Foreground="#FFFFFFFF"
+								Width="538"
+								TextOptions.TextFormattingMode="Display"
+								Height="65"
+								Text="NOTE: Windows doesn't recieve any new updates anymore, which renders this tab useless, because every update until 2020 is bundled. It is still recommended to use the recommended settings, due to Windows being able to fetch updates released in the span of 2020 - 2023, but be careful, they might break certain features." FontFamily="Tahoma" />
+						</Grid>
+					</TabItem>
+					<TabItem
+						Header="4"
+						BorderBrush="#00ACACAC"
+						Visibility="Hidden">
+						<Grid
+							Background="#00E5E5E5">
+							<Grid.RowDefinitions>
+								<RowDefinition
+									Height="59*" />
+								<RowDefinition
+									Height="154*" />
+								<RowDefinition
+									Height="171*" />
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition />
+								<ColumnDefinition
+									Width="111*" />
+								<ColumnDefinition
+									Width="439*" />
+								<ColumnDefinition
+									Width="106*" />
+							</Grid.ColumnDefinitions>
+							<Image
+								Name="flagFinal"
+								Grid.Column="2"
+								Source="pack://siteoforigin:,,,/Resources/exec_briefing_start.dir_1_386.png"
+								Height="126"
+								VerticalAlignment="Top"
+								Margin="9,3,16,0"
+								Grid.Row="1" />
+							<TextBlock
+								Margin="15,117,40,0"
+								Grid.Row="1"
+								TextWrapping="Wrap"
+								Text="Thank you for choosing Windows!"
+								VerticalAlignment="Top"
+								Grid.Column="2"
+								Height="50"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF"
+								TextAlignment="Center"
+								FontSize="19"
+								FontFamily="Tahoma Bold" Width="410" />
+							<TextBlock
+								Name="welcometext_Copy"
+								Grid.Column="2"
+								HorizontalAlignment="Left"
+								Margin="56,9,0,0"
+								Grid.Row="2"
+								TextWrapping="Wrap"
+								Text="Windows is saving your preferences and user settings. Your will be brought to the login screen."
+								VerticalAlignment="Top"
+								Width="325"
+								TextOptions.TextFormattingMode="Display"
+								Foreground="#FFFFFFFF"
+								TextAlignment="Center" FontSize="14" FontFamily="Tahoma" />
+						</Grid>
+					</TabItem>
+				</TabControl>
+				<Image
+					Name="next"
+					Margin="613,420,10,10"
+					Source="pack://siteoforigin:,,,/Resources/next.png"
+					MouseLeftButtonDown="nextclick"
+					MouseEnter="nextHot"
+					MouseLeave="nextNormal" />
+				<Image
+					Name="back"
+					Margin="10,434,624,10"
+					Source="pack://siteoforigin:,,,/Resources/back.png"
+					MouseLeftButtonDown="prevclick"
+					MouseEnter="backHot"
+					MouseLeave="backnormal" />
+			</Grid>
+		</Canvas>
+	</Viewbox>
+</Window>
